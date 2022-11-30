@@ -1,0 +1,431 @@
+// ----------------------------  media quary start 1200 ----------------- //
+
+@media screen and(max-width:1199.98px) {
+  .bannar__body {
+    &__text {
+      padding: 100px 200px;
+      text-align: center;
+      font-weight: 500 !important;
+      &__title {
+        font-size: 6rem;
+        color: $color-white;
+        line-height: 108px;
+      }
+      &__description {
+        font-size: 3.5rem;
+        line-height: 70px;
+        margin-top: 8px;
+      }
+    }
+    &__btn {
+      button {
+        font-size: 13px;
+        padding: 10px 50px;
+        margin-top: 60px;
+      }
+    }
+  }
+  //   after sub page ---------------//
+  .bannar__subcription {
+    &__body {
+      padding: 8rem;
+      &__text {
+        width: 50%;
+      }
+    }
+  }
+  //   before sub page ---------------//
+  .playbtn__bannar__body {
+    margin-left: 4rem;
+    &__title {
+      font-size: 40px;
+      line-height: 56px;
+      margin: 1.5rem 0rem;
+    }
+    &__list {
+      margin-bottom: 3rem;
+      li {
+        font-size: 25px;
+        line-height: 42px;
+        margin: 4px 0px;
+      }
+    }
+    .play__btn {
+      padding: 2rem;
+      font-size: 20px;
+      line-height: 28px;
+      margin: 2.5rem 0rem;
+    }
+  }
+}
+// ----------------------------  media quary end 1200 ----------------- //
+// ----------------------------  media quary start 992 ----------------- //
+
+@media screen and (max-width: 991.98px) {
+  .card__wrapper {
+    .card__body {
+      .card__text {
+        font-size: 16px;
+      }
+    }
+  }
+  .bannar__body {
+    &__text {
+      padding: 80px 150px;
+      text-align: center;
+      font-weight: 500 !important;
+      &__title {
+        font-size: 6rem;
+        color: $color-white;
+        line-height: 60px;
+      }
+      &__description {
+        font-size: 2.5rem;
+        line-height: 50px;
+        margin-top: 8px;
+      }
+    }
+    &__btn {
+      button {
+        font-size: 13px;
+        padding: 10px 50px;
+        margin-top: 40px;
+      }
+    }
+  }
+  .card__height {
+    height: 210px;
+  }
+  //   after sub page ----------//
+  .bannar__subcription {
+    &__body {
+      padding: 5rem;
+      &__text {
+        width: 60%;
+      }
+    }
+  }
+  // before sub --------------//
+  .playbtn__bannar__body {
+    margin-left: 3rem;
+    &__title {
+      font-size: 30px;
+      line-height: 44px;
+      margin: 0.1rem 0rem;
+    }
+    &__list {
+      margin-bottom: 1.5rem;
+      li {
+        font-size: 18px;
+        line-height: 38px;
+        margin: 0px 0px;
+      }
+    }
+    .play__btn {
+      padding: 1.5rem;
+      font-size: 18px;
+      line-height: 19px;
+      margin: 2rem 0rem;
+    }
+  }
+  //     contact us -------//
+  .contact_us__position {
+    margin-left: 15%;
+    .contact_us__inpute__body {
+      margin: 0% 18%;
+    }
+  }
+  //   ----- faqs page
+  .faq__icon {
+    top: 9px !important;
+  }
+  .faq__list--margin {
+    margin: 0% 5% !important;
+  }
+  .faq__list__item__discription {
+    font-size: 12px;
+  }
+  .faq__list {
+    font-size: 15px !important;
+  }
+
+  .faq__list__item {
+    padding: 10px 60px 10px 20px !important;
+  }
+}
+// ----------------------------  media quary end 992 ----------------- //
+// ----------------------------  media quary start 768 ----------------- //
+
+@media screen and (max-width: 768px) {
+  .bannar__body {
+    &__text {
+      padding: 70px 100px;
+      text-align: center;
+      font-weight: 500 !important;
+      &__title {
+        font-size: 4rem;
+        color: $color-white;
+        line-height: 56px;
+      }
+      &__description {
+        font-size: 2rem;
+        line-height: 40px;
+        margin-top: 6px;
+      }
+    }
+    &__btn {
+      button {
+        font-size: 13px;
+        padding: 10px 50px;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .slider__card__title {
+    &__text {
+      font-size: 17px;
+    }
+  }
+  //      after sub page
+  .bannar__subcription {
+    &__body {
+      &__text {
+        width: 70%;
+        &__title {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  //     befor sub page
+  .playbtn__bannar__body {
+    margin-left: 0rem;
+    &__title {
+      font-size: 20px;
+      line-height: 35px;
+      margin: 0.5rem 0rem;
+    }
+    &__list {
+      margin-bottom: 0.5rem;
+      li {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0px 0px;
+      }
+    }
+    .play__btn {
+      padding: 1rem;
+      font-size: 14px;
+      line-height: 15px;
+      margin: 1.5rem 0rem;
+    }
+  }
+  //     about us
+  .about_us__title__text {
+    font-size: 25px;
+  }
+  .about_us__describson__body {
+    &__text {
+      font-size: 14px;
+      margin: 4rem 0rem;
+    }
+  }
+  //     contact us page
+  .contact_us__position {
+    margin-left: 12%;
+    .contact_us__inpute__body {
+      margin: 0% 13% !important;
+    }
+  }
+}
+// ----------------------------  media quary end 768 ----------------- //
+// ----------------------------  media quary start 576 ----------------- //
+
+@media screen and (max-width: 575.98px) {
+  .mostPopular {
+    padding: 30px 0px 20px 0;
+  }
+
+  .slider {
+    margin: 20px 0px;
+  }
+
+  .card__wrapper {
+    .card__body {
+      margin: 2rem 1rem !important;
+      .card__text {
+        margin-left: 5px;
+        line-height: 15px;
+        font-size: 16px;
+        margin-bottom: 0px !important;
+      }
+    }
+  }
+  .slick-prev::before,
+  .slick-next::before {
+    padding: 9px 10px 6px 9px;
+    line-height: 0;
+    font-size: 15px !important;
+  }
+  .slick-next:before {
+    content: url(../img/Vector.svg);
+  }
+  .slick-prev::before {
+    content: url(../img/Group.svg);
+  }
+  .slick-next {
+    right: 39px !important;
+    z-index: 9999;
+  }
+  .bannar__body {
+    display: none;
+  }
+  .more_icon {
+    width: 30px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  // home page
+
+  .mostPopular__title__text--font-size {
+    font-size: 20px;
+  }
+  .lock {
+    overflow: unset;
+  }
+  .box {
+    left: -13px;
+    width: 105%;
+  }
+  .card__height {
+    height: 175px;
+  }
+  .slider__item--icon {
+    width: 60px !important;
+  }
+  // befor sub page
+  .playbtn__bannar__body {
+    margin-left: 0rem;
+    &__title {
+      font-size: 16px;
+      line-height: 25px;
+      margin: 0.3rem 0rem;
+    }
+    &__list {
+      margin-bottom: 0.5rem;
+      li {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0px 0px;
+      }
+    }
+    .play__btn {
+      padding: 1rem;
+      font-size: 14px;
+      line-height: 15px;
+      margin: 1.5rem 0rem;
+    }
+  }
+  .playbtn__bannar {
+    height: auto;
+  }
+  // ----------------  game description start----------------//
+  .game__description__body {
+    padding: 3rem;
+    &__title {
+      font-size: 22px;
+      line-height: 25px;
+      margin: 1rem 0rem;
+    }
+    &__text {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+  // contact us page
+  .contact_us__position {
+    margin-left: 0%;
+    .contact_us__inpute__body {
+      margin: 0% !important;
+    }
+    .m {
+      margin-top: 4rem !important;
+      margin-bottom: 4.5rem !important;
+    }
+  }
+  // faqs page
+  .faq__list {
+    margin: 0% !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+  // game click page
+  .iframe__body {
+    &__iframe {
+      height: calc(500px - 160px);
+    }
+    &__t {
+      &__description {
+        p {
+          float: unset;
+        }
+      }
+    }
+  }
+}
+// ----------------------------  media quary end 576 ----------------- //
+@media screen and(max-width:440px) {
+  .card__height {
+    height: 108px;
+  }
+  .slider__item--icon {
+    width: 40px !important;
+  }
+  .slider__card__title {
+    &__text {
+      margin-bottom: 0;
+      padding: 0;
+      font-size: 1rem !important;
+
+      margin-left: 8%;
+    }
+    padding: 0 !important;
+    bottom: 0px !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .box {
+    width: 107%;
+  }
+}
+
+// ---------------- media queary start 313 ----------//
+@media screen and (max-width: 312.98px) {
+  .playbtn__bannar__body {
+    margin-left: 0.5rem;
+    &__title {
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0.3rem 0rem;
+    }
+    &__list {
+      margin-bottom: 0.5rem;
+      li {
+        font-size: 11px;
+        line-height: 14px;
+        margin: 0px 0px;
+      }
+    }
+    .play__btn {
+      padding: 0.7rem;
+      font-size: 11px;
+      line-height: 15px;
+      margin: 1rem 0rem;
+    }
+  }
+  .playbtn__bannar {
+    height: auto;
+  }
+}
+// ---------------- media queary end 313 ----------//

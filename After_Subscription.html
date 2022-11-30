@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="vendors/Bootstrap/css/bootstrap.min.css" />
+  <!-- Slick Slider-->
+  <link rel="stylesheet" type="text/css" href="./vendors/slick-slider/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./vendors/slick-slider/css/slick-theme.css" />
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="./vendors/font-awesome/css/all.min.css" />
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Default Styles -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <!-- Title -->
+  <title>Xoss Game</title>
+</head>
+
+<body>
+  <!-- ------------------------- Header Start ---------------------- -->
+  <div class="site__header">
+    <div id="header-wrap" class="pb-80px">
+      <section id="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navber-fixed">
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" class="logo__img" alt="" /></a>
+            <a id="sidebar__toggle--btn"><img src="./img/sidebar_toggle.png" alt=""></a>
+            <div class="header__navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="./img/Subscription-Packages__icon.png" alt="" />
+                    Subscription Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="./img/Game-Instruction__icon.png" alt="" /> Game
+                    Instruction</a>
+                </li>
+              </ul>
+              <form class="header__form form-inline header__search my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search for games" />
+                <button class="submit" type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+              <div class="header__right">
+                <a id="header__notification--btn"><img src="./img/notification.png" alt=""></a>
+
+                <div id="header__notification" class="header__notification">
+                  <div class="header__notification--wrap">
+                    <h3>Notification</h3>
+
+                    <p>Today</p>
+
+                    <div class="header__notification--item">
+                      <h6><i class="fas fa-clock"></i>Time: 11:00pm</h6>
+                      <h1><img src="./img/Bunge-jungle-2.png" alt="">Bungle Jungle</h1>
+                      <p>A new game is in the gp games store checkout all the details and let’s jump for the game.</p>
+                      <div class="text-right">
+                        <a href="">Checkout</a>
+                      </div>
+                    </div>
+
+                    <div class="header__notification--item">
+                      <h6><i class="fas fa-clock"></i>Time: 11:00pm</h6>
+                      <h1><img src="./img/Bunge-jungle-2.png" alt="">Bungle Jungle</h1>
+                      <p>A new game is in the gp games store checkout all the details and let’s jump for the game.</p>
+                      <div class="text-right">
+                        <a href="">Checkout</a>
+                      </div>
+                    </div>
+
+                    <p>This month</p>
+
+                    <div class="header__notification--item">
+                      <h6><span><i class="fas fa-calendar-alt"></i>Date : 12 jan 2022</span><i
+                          class="fas fa-clock"></i>Time:
+                        11:00pm</h6>
+                      <h1><img src="./img/Bunge-jungle-2.png" alt="">Bungle Jungle</h1>
+                      <p>A new game is in the gp games store checkout all the details and let’s jump for the game.</p>
+                      <div class="text-right">
+                        <a href="">Checkout</a>
+                      </div>
+                    </div>
+
+                    <div class="header__notification--item">
+                      <h6><span><i class="fas fa-calendar-alt"></i>Date : 12 jan 2022</span><i
+                          class="fas fa-clock"></i>Time:
+                        11:00pm</h6>
+                      <h1><img src="./img/Bunge-jungle-2.png" alt="">Bungle Jungle</h1>
+                      <p>A new game is in the gp games store checkout all the details and let’s jump for the game.</p>
+                      <div class="text-right">
+                        <a href="">Checkout</a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <a href="#"><img src="./img/login__icon.png" alt=""></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+
+        <div id="header__sidebar" class="header__sidebar">
+          <div class="float-right">
+            <a id="sidebar__close">
+              <i class="fas fa-times"></i>
+            </a>
+          </div>
+          <div class="header__sidebar--listItems">
+            <ul class="sidebar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./img/1_game.png" alt="" />Game Instructions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./img/2_s.png" alt="" />Subscribe Package</a>
+              </li>
+              <li class="nav-item collapse__item">
+                <a id="collapse__items--btn" class="nav-link" href="#">
+                  <img src="./img/3_l.png" alt="" />Language
+                  <div class="float-right">
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                </a>
+                <ul class="collapse__items" id="collapse__items">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Bangla</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">English</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./img/4_about.png" alt="" />About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./img/5_tandc.png" alt="" />Terms and Conditions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./img/6_Privacy Policy.png" alt="" />Privacy Policy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./img/7_faq.png" alt="" />FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./img/8_contactus.png" alt="" />Contact Us</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+          <div class="subscription__section text-center">
+            <h3>Subscription</h3>
+            <button class="btn__hover text-center">Unsubscribe</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="mobile__header__search--form">
+      <form class="mobile__header__form form-inline mobile__header__search my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" />
+        <button class="submit" type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- ------------------------- Header End ---------------------- -->
+  <!-- ------------------------- Exclusive Games Trailers Start ---------------------- -->
+  <section class="bg-color">
+    <div class="slider">
+      <div class="container">
+        <div class="row section__header">
+          <div class="mostPopular__title col-12 mb-3 mb-md-5">
+            <h3 class="mostPopular__title__text mostPopular__title__text--font-size">
+              Browse Games
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="icon__card__main">
+        <div class="container">
+          <div class="icon__card__wraper">
+            <div class="icon__card__items">
+              <!-- card 1 -->
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img">
+                    <img src="img/action.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Action</h5>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img">
+                    <img src="img/racing.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Racing</h5>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img">
+                    <img src="img/puzzle.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Puzzle</h5>
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img">
+                    <img src="img/click.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Click</h5>
+                </div>
+              </div>
+              <!-- card 5 -->
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img icon__card__body__img-sizeS">
+                    <img src="img/car.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Car</h5>
+                </div>
+              </div>
+              <!-- card 6 -->
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img">
+                    <img src="img/funny.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Funny</h5>
+                </div>
+              </div>
+              <!-- card 7 -->
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img">
+                    <img src="img/shoot.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Shoot</h5>
+                </div>
+              </div>
+              <!-- card 8 -->
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img icon__card__body__img-size">
+                    <img src="img/zombie.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Zombie</h5>
+                </div>
+              </div>
+              <div class="icon__card__item">
+                <div class="icon__card__body">
+                  <div class="icon__card__body__img icon__card__body__img-size">
+                    <img src="img/girl.png" alt="" width="100%" />
+                  </div>
+                  <h5 class="icon__card__body__text">Girl</h5>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------- Exclusive Games Trailers Section End ---------------------- -->
+
+    <!-- --------------------------bannar start ---------------------- -->
+    <section class="bannar__subcription d-none d-sm-block">
+      <div class="container">
+        <div class="bannar__subcription__body">
+          <div class="bannar__subcription__body__text">
+            <h3 class="bannar__subcription__body__text__title">A New Game</h3>
+            <p class="bannar__subcription__body__text__description">
+              It is a long established fact that a reader will be distracted
+              by the of a page when looking at its layout. The point of using
+              Lorem more-or-less normal distribution of letters, as opposed to
+              using Content here, content here', making it look like readable
+              English
+            </p>
+            <div class="bannar__body__btn">
+              <button class="btn__hover">Play Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- --------------------------bannar end ------------------------ -->
+  <!-- --------------------------Favorite Games start-------------------- -->
+  <section class="mostPopular all__game">
+    <div class="container">
+      <div class="mostPopular__title mb-3 mb-md-5">
+        <h3 class="mostPopular__title__text mostPopular__title__text--font-size mt-5">
+          Favorite Games
+        </h3>
+      </div>
+      <div class="card__wrapper row">
+        <!-- -------- card 1  -->
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/Copy of Bunge-jungle.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Bungle Jungle</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- -------- card 2   -->
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/candy-egg.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Candy Egg Blast</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- -------- card 3  -->
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/andy-factory.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Andy’s Factory</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- -------- card 4  -->
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/living-dead.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Living Dead</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- -------- card 5  -->
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/rule-out.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Rule Out</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- -------- card 6  -->
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/Copy of ESCAPE.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Escape</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="more_icon">
+        <a href="#">
+          <img src="img/Group 1741.png" width="100%" alt="" />
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- --------------------------Favorite Games end-------------------- -->
+  <!-- ------------------------- Exclusive Games Trailers Start ---------------------- -->
+  <section class="slider">
+    <div class="container">
+      <div class="row section__header">
+        <div class="mostPopular__title col-12 mb-3 mb-md-5">
+          <h3 class="mostPopular__title__text mostPopular__title__text--font-size">
+            Exclusive Games
+          </h3>
+        </div>
+      </div>
+      <div class="row slider__items card__wrapper">
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/Copy of Bunge-jungle.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Bungle Jungle</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- -------- card 2   -->
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/candy-egg.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Candy Egg Blast</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- -------- card 3  -->
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/andy-factory.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Andy’s Factory</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- -------- card 4  -->
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+          <a href="">
+            <div class="card card__body">
+              <img src="img/living-dead.png" class="card-img-top card__img" width="100%" alt="..." />
+              <div class="card-body card__text__body">
+                <h5 class="card-title card__text">Living Dead</h5>
+                <div class="reating__icon__body">
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="reting__icon__body__item">
+                    <i class="fas fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------- Exclusive Games Trailers Section End ---------------------- -->
+
+  <!-- --------------------------subscribe for all gamestart-------------------- -->
+  <section class="mostPopular all__game">
+    <div class="container">
+      <section class="lock">
+        <div class="mostPopular__title mb-3 mb-md-5">
+          <h3 class="mostPopular__title__text mostPopular__title__text--font-size mt-5">
+            All Games
+          </h3>
+        </div>
+        <div class="card__wrapper row">
+          <!-- -------- card 1  -->
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/Copy of Bunge-jungle.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Bungle Jungle</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- -------- card 2   -->
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/candy-egg.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Candy Egg Blast</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- -------- card 3  -->
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/andy-factory.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Andy’s Factory</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- -------- card 4  -->
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/living-dead.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Living Dead</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- -------- card 5  -->
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/ninja.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Ninja</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- -------- card 6  -->
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/Copy of ESCAPE.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Escape</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- -------- card 7  -->
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/Car Napping.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Choco Ball</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- -------- card 8 -->
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/cannon candy-2 1.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Cannon candy</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- -------- card 9  -->
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 d-none d-md-block p-0">
+            <a href="">
+              <div class="card card__body">
+                <img src="img/Copy of Choco Ball-2 1.png" class="card-img-top card__img" width="100%" alt="..." />
+                <div class="card-body card__text__body">
+                  <h5 class="card-title card__text">Choco Ball</h5>
+                  <div class="reating__icon__body">
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span class="reting__icon__body__item">
+                      <i class="fas fa-star"></i></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="more_icon">
+          <a href="#">
+            <img src="img/Group 1741.png" width="100%" alt="" />
+          </a>
+        </div>
+      </section>
+    </div>
+  </section>
+  <!-- --------------------------subscribe for all game end-------------------- -->
+  <!-- ------------------------- Exclusive Games Trailers Start ---------------------- -->
+  <section class="slider">
+    <div class="container">
+      <div class="row section__header">
+        <div class="mostPopular__title col-12 mb-3 mb-md-5">
+          <h3 class="mostPopular__title__text mostPopular__title__text--font-size">
+            Exclusive Games Trailers
+          </h3>
+        </div>
+      </div>
+      <div class="row slider__items">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card__height">
+            <a class="slider__item hover1" href="">
+              <img class="slider__item--banner" src="img/Bunge-jungle-slider.png" alt="" />
+              <img class="slider__item--icon icon-hover-white1" src="img/youtube__icon.png" alt="" />
+              <img class="slider__item--icon icon-opacity icon-hover-red1" src="img/youtube__icon-red.png" alt="" />
+
+              <div class="slider__card__title slidr__card__title--position col-12">
+                <h4 class="slider__card__title__text">Bungle Jungle</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card__height">
+            <a class="slider__item hover2" href="">
+              <img class="slider__item--banner" src="img/candy-egg-slider.png" alt="" />
+              <img class="slider__item--icon icon-hover-white2" src="img/youtube__icon.png" alt="" />
+              <img class="slider__item--icon icon-opacity icon-hover-red2" src="img/youtube__icon-red.png" alt="" />
+              <div class="slider__card__title col-12">
+                <h4 class="slider__card__title__text">Candy Egg Blast</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card__height">
+            <a class="slider__item hover3" href="">
+              <img class="slider__item--banner" src="img/rule-out-slider.png" alt="" />
+              <img class="slider__item--icon icon-hover-white3" src="img/youtube__icon.png" alt="" />
+              <img class="slider__item--icon icon-opacity icon-opacity icon-hover-red3" src="img/youtube__icon-red.png"
+                alt="" />
+              <div class="slider__card__title slidr__card__title--position col-12">
+                <h4 class="slider__card__title__text">Rule Out</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card__height">
+            <a class="slider__item hover4" href="">
+              <img class="slider__item--banner" src="img/fishing-slider.png" alt="" />
+              <img class="slider__item--icon icon-opacity icon-hover-white4" src="img/youtube__icon.png" alt="" />
+              <img class="slider__item--icon icon-hover-red4" src="img/youtube__icon-red.png" alt="" />
+              <div class="slider__card__title slidr__card__title--position col-12">
+                <h4 class="slider__card__title__text">Fishing</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------- Exclusive Games Trailers Section End ---------------------- -->
+  <!-- ------------------------- Footer Section start ---------------------- -->
+  <section class="footer d-none d-sm-block mt-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-0"></div>
+        <div class="col-4 footer__information col-md-3 col-lg-2">
+          <h4 class="footer__information__title">GP Game</h4>
+          <ul class="list-unstyled">
+            <li class="list-item"><a href="">Game Instructions</a></li>
+            <li class="list-item"><a href="">Subscribe Package</a></li>
+            <li class="list-item"><a href="">About Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-0"></div>
+        <div class="col-5 col-md-3 footer__information">
+          <h4 class="footer__information__title">Informations</h4>
+          <ul class="list-unstyled">
+            <li class="list-item"><a href="">Terms and Conditions</a></li>
+            <li class="list-item"><a href="">Privacy Policy</a></li>
+            <li class="list-item"><a href="">FAQ</a></li>
+            <li class="list-item"><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-0"></div>
+      </div>
+      <div class="row footer__border">
+        <div class="col-4 col-md-2"></div>
+        <div class="col-md-8 col-12 d-flex justify-content-center align-items-center mb-0 footer__end__body">
+          <p class="copyRight">All Rights Reserved@2022</p>
+          <form action="" class="footer__form">
+            <div class="lng__icon">
+              <img src="img/Group 1049.png" alt="" />
+            </div>
+            <select name="langueg" id="" class="lng__selection">
+              <option value="English">English</option>
+              <option value="Bangla">Bangla</option>
+            </select>
+          </form>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------- footer Section End ---------------------- -->
+
+  <!-- Bootstrap 4 Scripts-->
+  <script src="./vendors/Bootstrap/js/bootstrap.min.js"></script>
+  <!-- jquery -->
+  <script src="./vendors/jquery/jquery-slim.min.js"></script>
+  <script src="./vendors/popper/popper.min.js"></script>
+  <!-- Slick Slider -->
+  <script type="text/javascript" src="./vendors/slick-slider/js/slick.min.js"></script>
+  <!-- Waypoint -->
+  <script type="text/javascript" src="./vendors/waypoint/jquery.waypoints.min.js"></script>
+  <!-- Slick JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-- Js -->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

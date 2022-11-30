@@ -1,0 +1,90 @@
+#signIn {
+  margin-top: 50px;
+}
+#wAuto {
+  width: auto;
+}
+.signin__title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.contant_body__inputs {
+  height: 73px;
+  display: block;
+  margin: 30px auto 40px;
+  div {
+    display: grid;
+    label {
+      font-size: 16px;
+      color: $color-beguni-dark;
+    }
+    input {
+      height: 42px;
+      margin-bottom: 18px;
+      font-size: 18px;
+      border: 1px solid $color-beguni-dark;
+      border-radius: 3px;
+    }
+    button {
+      height: 42px;
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      color: $color-white;
+      background-color: $color-beguni-dark;
+      border-radius: 3px;
+      border: none;
+      outline: none;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+///////////////////@at-root
+.containerBody {
+  min-height: 770px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  #contant_body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .contant_body_signin {
+    height: 415px;
+    width: 341px;
+    background-color: $color-white;
+    margin: auto;
+    margin-top: 150px;
+    .contant_body__logo {
+      height: 90px;
+      width: 133px;
+      margin: auto;
+      img {
+        height: 53px;
+        width: 56px;
+        margin: auto;
+        display: block;
+      }
+      span {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $color-beguni-dark;
+        display: block;
+        margin-top: 8px;
+      }
+    }
+    .contant_body__contant {
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.rightTickMinW {
+  min-width: 399;
+  font-family: "Roboto", sans-serif;
+}
+#rightTick_modal {
+  height: 220px;
+  img {
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 50px auto 0;
+  }
+  p {
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    width: fit-content;
+  }
+}

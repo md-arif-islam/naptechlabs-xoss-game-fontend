@@ -1,0 +1,100 @@
+.footer {
+  background-color: $bg-footer-color;
+  .footer__information {
+    &__title {
+      color: $color-grey-dark-3;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .list-item {
+      color: $list-item-color;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin: 20px 0px;
+      a {
+        color: $list-item-color !important;
+        text-decoration: none;
+      }
+    }
+  }
+  &__border {
+    border-top: 1px solid #000000b2;
+    margin: 15px 12px 0px 28px;
+    padding-top: 27px;
+  }
+  .footer__end__body {
+    color: $color-dark;
+    flex-wrap: wrap-reverse;
+    .copyRight {
+      margin-right: 20px !important;
+      margin-bottom: 20px !important;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  &__form {
+    position: relative;
+    .lng__selection {
+      padding: 10px 50px;
+      border-radius: 10px;
+      background-color: transparent;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: $color-dark;
+      padding-right: 6rem;
+      margin: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+
+      &:-moz-focusring {
+        color: transparent;
+        text-shadow: 0 0 0 #000;
+      }
+
+      background-image: linear-gradient(45deg, transparent 50%, #3c1e6e 50%),
+        linear-gradient(135deg, #3c1e6e 50%, transparent 50%),
+        linear-gradient(to right, #3c1e6e, #3c1e6e);
+      background-position: calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+      background-size: 5px 5px, 5px 5px, 1px 1.5em;
+      background-repeat: no-repeat;
+    }
+    .lng__icon {
+      position: absolute;
+      left: 20px;
+      top: 9px;
+      z-index: 999;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer__end__body {
+    .copyRight {
+      margin-top: 15px;
+    }
+    &__form {
+      .lng__selection {
+        padding-right: 4rem;
+      }
+    }
+  }
+}

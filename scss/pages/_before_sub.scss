@@ -1,0 +1,138 @@
+// --------------------- bannar ---------------//
+.playbtn__bannar {
+  filter: brightness(0.5);
+  margin-left: 3px;
+  img {
+    border-radius: 15px;
+  }
+}
+.playbtn__bannar__body {
+  margin-left: 5rem;
+  &__title {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-grey-dark-3;
+  }
+  &__list {
+    margin-bottom: 5rem;
+    li {
+      list-style: none;
+      font-size: 2.2rem;
+      font-style: normal;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: $color-dark_70;
+      margin: 5px 0px;
+    }
+  }
+  .play__btn {
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1.5rem;
+    display: block;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    transition: all 0.5s;
+    margin: 3rem 0rem;
+    &--playnow {
+      color: $color-white;
+      background-color: $color-grey-dark-3;
+    }
+    &--leaderBoard {
+      color: $color-dark_80;
+      border: 1.5px solid $color-grey-dark-3;
+    }
+  }
+}
+//-------------------- footer ----------------//
+.copyRight {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: $color-dark;
+  margin-top: 20px !important;
+}
+.footer__list__coustomize {
+  ul {
+    li {
+      border-right: 1px solid $color-darken;
+      padding: 0px 15px;
+      &:last-child {
+        border-right: none;
+        margin-left: 10px;
+        .footer__form {
+          .lng__icon {
+            top: 4px;
+          }
+
+          .lng__selection--height {
+            padding: 5px 50px;
+            border-radius: 7px;
+            background-color: transparent;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right: 4rem;
+            background: transparent
+              url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+              no-repeat 100% center;
+          }
+        }
+      }
+
+      a {
+        color: $color-darken;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        &:hover {
+          text-decoration: none;
+          color: $color-dark;
+        }
+      }
+    }
+  }
+}
+// ----------------  game description start----------------//
+.game__description__body {
+  background: $color-gray-dark_90;
+  border-radius: 8px;
+  padding: 5rem;
+  &__title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 1.5rem 0rem;
+  }
+  &__text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+// ----------------  game description end----------------//

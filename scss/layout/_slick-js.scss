@@ -1,0 +1,29 @@
+.slick-arrow::before {
+  font-size: 33px !important;
+  z-index: 9999;
+  opacity: 1;
+  background: #502989;
+  border-radius: 50%;
+}
+
+.slick-prev {
+  left: 29px !important;
+  z-index: 1;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: $color-white !important;
+  font-family: inherit !important;
+}
+.slick-next::before {
+  padding: 6px 14px 3px 17px;
+}
+.slick-prev::before {
+  padding: 6px 17px 3px 14px;
+}
+.slick-next {
+  right: 53px !important;
+  z-index: 1;
+}
+

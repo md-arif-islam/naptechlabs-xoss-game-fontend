@@ -1,0 +1,122 @@
+#containerBody {
+  min-height: auto;
+  font-family: "Roboto", sans-serif;
+}
+.containerBody {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  #contant_body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .contant_body {
+    height: 415px;
+    width: 236px;
+    background-color: $color-white;
+    margin: auto;
+    margin-top: 100px;
+    .contant_body__logo {
+      height: 90px;
+      width: 133px;
+      margin: auto;
+      img {
+        height: 53px;
+        width: 56px;
+        margin: auto;
+        display: block;
+      }
+      span {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $color-beguni-dark;
+        display: block;
+        margin-top: 8px;
+      }
+    }
+    .contant_body__contant {
+      width: 236px;
+      height: 46px;
+      margin-top: 50px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      p,
+      span {
+        margin: 0;
+      }
+      p {
+        color: $color-beguni-dark;
+      }
+    }
+    .contant_body__input {
+      // width: 208px;
+      height: 73px;
+      display: block;
+      margin: 70px auto 40px;
+      small {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        display: block;
+        color: $color-beguni-dark;
+        margin-bottom: 4px;
+      }
+      div {
+        display: flex;
+        margin: auto;
+        width: 226px;
+        img {
+          width: 40px;
+          height: 47px;
+          border-radius: 0 3px 3px 0;
+        }
+        input {
+          border-radius: 3px 0 0 3px;
+          border-right: hidden;
+          border-style: solid;
+          border-color: $color-darken;
+          width: 186px;
+          font-size: 18px;
+          font-weight: 400;
+          padding: 0 10px;
+          color: $color-beguni-dark;
+          &::placeholder {
+            color: $color-beguni-dark;
+          }
+        }
+        input:focus-visible {
+          outline: 0;
+          border-color: $color-beguni-dark;
+          transition: 0.5s;
+        }
+      }
+    }
+    .contant_body__footer {
+      width: 222px;
+      height: 36px;
+      text-align: center;
+      margin: auto;
+      color: $color-dark_80;
+      span {
+        color: $color-beguni-dark;
+      }
+      small,
+      span {
+        font-size: 12px;
+        display: block;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+      }
+    }
+  }
+}

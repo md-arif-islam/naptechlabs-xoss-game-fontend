@@ -1,0 +1,76 @@
+.contact_us__position {
+  margin-left: 19%;
+
+  .contact_us__inpute__body {
+    margin: 0% 22%;
+    .contact_us__title {
+      .m {
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+      }
+
+      &__item {
+        &__icon {
+          width: 20px;
+          float: left;
+          margin-right: 2%;
+        }
+        &__text {
+          overflow: hidden;
+
+          h5 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: $color-dark_80;
+          }
+        }
+      }
+    }
+    &__form {
+      margin-left: 4%;
+      &__item {
+        width: 100%;
+        margin: 5% 0%;
+        input,
+        textarea {
+          padding: 3%;
+          padding-left: 3%;
+          width: 99.5%;
+          border: 1px solid #3c1e6e;
+          border-radius: 4px;
+          color: $color-beguni-dark;
+          font-weight: bold;
+          font-size: 16px;
+        }
+      }
+      &__btn {
+        width: 100%;
+        padding: 2% 0%;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        color: $color-white;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        background: #3c1e6e;
+        border-radius: 7px;
+        border: none;
+      }
+
+      ::placeholder {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $color-dark_40;
+      }
+    }
+  }
+}

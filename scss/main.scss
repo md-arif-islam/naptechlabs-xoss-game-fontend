@@ -1,0 +1,40 @@
+// Abstracts
+@import "./abstracts/variables";
+
+// Base
+@import "./base/typography";
+@import "./base/base";
+
+// Components
+@import "./components/button";
+@import "./components/card";
+@import "./components/feature";
+@import "./components/logo";
+@import "./components/social-icon";
+
+// Layouts
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/navigation";
+@import "./layout/slick-js";
+
+// Pages
+@import "./pages/home";
+@import "./pages/After_Subscription";
+@import "./pages/before_sub";
+@import "./pages/about_us";
+@import "./pages/contact_us";
+@import "./pages/FAQs";
+@import "./pages/game_click";
+@import "./pages/responsive";
+
+@import "./pages/permission_popup";
+@import "./pages/subscrption_popup";
+@import "./pages/rightTick_modal";
+@import "./pages/verification_code";
+@import "./pages/signin_mobile";
+@import "./pages/subscribe_plan";
+@import "./pages/verify_manually.scss";
+@import "./pages/signin_mobile_2.scss";
+@import "./pages/profile_mobile.scss";
+@import "./pages/subsc_confirmation";

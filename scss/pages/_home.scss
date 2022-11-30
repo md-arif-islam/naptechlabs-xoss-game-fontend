@@ -1,0 +1,191 @@
+// bannar section start -------------------------//
+.bannar {
+  &__body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about_us__bannar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__text {
+      padding: 120px 250px;
+      text-align: center;
+      font-weight: bold !important;
+      &__title {
+        font-size: 8rem;
+        color: $color-white;
+        line-height: 112px;
+      }
+      &__description {
+        font-size: 4rem;
+        line-height: 60px;
+        color: $color-white;
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    }
+    &__btn {
+      button {
+        font-weight: 700;
+        background-color: $color-grey-dark-3;
+        font-size: 17px;
+        padding: 12px 60px;
+        color: $color-white;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        margin-top: 68px;
+        transition: 1s;
+      }
+    }
+  }
+}
+
+// ========================   bannar section end  ======================//
+
+//  ----------------------- global btn hover ------------
+.btn__hover:hover {
+  background-color: $color-pink !important;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+// ----------------------------most populer section start --------------//
+
+.mostPopular {
+  padding: 50px 0px 30px 0 ;
+
+  &__title {
+    &__text {
+      color: $color-grey-dark-3;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+.mostPopular__title__text--font-width {
+  span {
+    font-weight: normal !important;
+  }
+}
+.more_icon {
+  width: 45px;
+  margin: auto;
+  margin-top: 20px;
+  a {
+    :hover {
+      filter: brightness(1.5);
+    }
+  }
+}
+.lock {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+.box {
+  width: 100%;
+  height: 103%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: linear-gradient(
+    0.94deg,
+    rgba(67, 37, 116, 0.4) 2.96%,
+    rgba(99, 58, 167, 0.4) 48.2%,
+    rgba(0, 0, 0, 0) 97.64%
+  );
+  .lock__body {
+    text-align: center;
+
+    .lock__icon {
+      width: 20%;
+      margin: auto;
+      margin-top: 324px;
+    }
+    .lock__btn {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: $color-white;
+      background-color: $color-card-title;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+      margin-top: 25px;
+      padding: 10px 50px;
+      transition: 1s;
+    }
+  }
+}
+
+// ----------------------------most populer section end --------------//
+// ----------------------------slider section start --------------//
+
+.slider {
+  margin: 50px 0px;
+  &__items {
+    padding: 20px;
+  }
+  &__item {
+    &--banner {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      opacity: 0.8;
+      filter: brightness(0.5);
+    }
+
+    &--icon {
+      width: 80px;
+      height: auto;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: 0.5s ease-in-out;
+    }
+    .icon-opacity {
+      opacity: 0;
+    }
+  }
+}
+.slider__card__title {
+  color: $color-white;
+  font-size: 2rem;
+  border-top: 5px solid $color-white;
+  padding-top: 10px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 3px;
+  &__text {
+    margin-left: 5px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  // &--position {
+  //   bottom: 24px;
+  // }
+}
+.card__height {
+  position: relative;
+  height: 246px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+// ----------------------------slider section end --------------//

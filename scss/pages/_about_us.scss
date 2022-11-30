@@ -1,0 +1,61 @@
+// ----------- bannar section ---------//
+.bannar__body--bg {
+  background-image: url(../../img/about_us__bannar.png);
+  .bannar__body__text {
+    &__title {
+      a {
+        color: $color-white !important;
+        text-decoration: none;
+        &:hover {
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+.sm__bannar {
+  &__icon {
+    margin: auto;
+    width: 10%;
+    padding: 2rem 0rem;
+  }
+  &__title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    color: $color-beguni-dark;
+    margin-bottom: 2rem;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+// ---------------- about us content --------//
+.about_us__title__text {
+  color: $color-beguni-dark;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about_us__describson__body {
+  &__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 5rem 0rem;
+    color: $color-dark_80;
+  }
+}
+
+@media screen and (max-width: 992px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+  
+}

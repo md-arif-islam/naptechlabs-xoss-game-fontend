@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap 4 -->
+  <script src="./vendors/jquery/jquery-slim.min.js"></script>
+  <link rel="stylesheet" href="./vendors/Bootstrap/css/bootstrap.min.css">
+  <script src="./vendors/Bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Slick Slider-->
+  <link rel="stylesheet" type="text/css" href="./vendors/slick-slider/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./vendors/slick-slider/css/slick.css" />
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="./vendors/font-awesome/css/all.min.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Default Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Title -->
+  <title>Techviewing.com</title>
+</head>
+
+<body>
+  <center>
+    <h1>Techviewing</h1>
+  </center>
+  <!-- permissinon pop up -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#permission_pop">permission
+    popup</button>
+
+  <div class="modal fade" id="permission_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth" role="document">
+      <div class="modal-content bg">
+        <section id="permissionModal">
+          <div id="textContent">
+            <span class="popup_title">Permission</span>
+            <p>Are you sure, you want to <span class="differ">unsubscribe</span> for <br> this "daily package".</p>
+          </div>
+          <div class="buttons">
+            <button class="yes_btn">Yes</button>
+            <button class="no_btn">No</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- end permission popup -->
+
+
+  <!-- subscripbtion popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscription_pop">subscription
+    popup</button>
+  <div class="modal fade" id="subscription_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth modal_width" role="document">
+      <div class="modal-content bg">
+        <section id="subscriptionModal">
+          <div>
+            <div class="header_title">
+              <div>Xoss.games</div>
+              <span>Subspription</span>
+            </div>
+            <div class="choose_plan">
+              <h5 class="h5">Choose a plan</h5>
+              <div class="plan_cards">
+                <div class="plan_card">
+                  <section>
+                    <h5>Daily</h5>
+                    <small>2.67tk/-</small>
+                    <div class="package">
+                      <div>
+                        <label for=""></label>
+                        <span>1 day</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>All Game Access</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>Auto Renewal</span>
+                      </div>
+                    </div>
+                    <button>Subscribe now</button>
+                  </section>
+                </div>
+                <div class="plan_card">
+                  <section>
+                    <h5>Weekly</h5>
+                    <small>14.99tk/-</small>
+                    <div class="package">
+                      <div>
+                        <label for=""></label>
+                        <span>1 day</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>All Game Access</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>Auto Renewal</span>
+                      </div>
+                    </div>
+                    <button>Subscribe now</button>
+                  </section>
+                </div>
+                <div class="plan_card" id="lastCard">
+                  <section>
+                    <h5>Montly</h5>
+                    <small>19.99tk/-</small>
+                    <div class="package">
+                      <div>
+                        <label for=""></label>
+                        <span>1 day</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>All Game Access</span>
+                      </div>
+
+                    </div>
+                    <button>Subscribe now</button>
+                  </section>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+      </section>
+    </div>
+  </div>
+  </div>
+  <!-- end subscribe tion popup -->
+
+  <!-- right tick popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#rightTick_pop">Right Tick
+    popup</button>
+  <div class="modal fade" id="rightTick_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth rightTickMinW" role="document">
+      <div class="modal-content bg">
+        <section id="rightTick_modal">
+          <img src="./img/tick_mark.png" alt="noimage">
+          <p>Unsubscription Successful!</p>
+
+      </div>
+      </section>
+    </div>
+  </div>
+  </div>
+  <!-- end right tick popup -->
+
+  <!-- Loading tick popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loading_pop">Loading
+    popup</button>
+  <div class="modal fade" id="loading_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth rightTickMinW" role="document">
+      <div class="modal-content bg">
+        <section id="rightTick_modal">
+          <img src="./img/loading2.png" alt="noimage">
+      </div>
+      </section>
+    </div>
+  </div>
+  </div>
+  <!-- end Loading tick popup -->
+  <br>
+  <!-- varifycation code popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vfCode_pop">varification code
+    popup</button>
+  <div class="modal fade" id="vfCode_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth rightTickMinW" role="document">
+      <div class="modal-content bg">
+        <div class="containerBody" id="containerBody">
+          <section class="contant_body" id="contant_body">
+            <div class="contant_body__logo">
+              <img src="./img/Grameenphone_Logo_GP_Logo.svg.png" alt="">
+              <span>Xoos.Games</span>
+            </div>
+            <div class="contant_body__contant">
+              <p> We send a varification code to</p>
+              <span>(+880) 17******69</span>
+            </div>
+            <div class="contant_body__input">
+              <small>varification Code (4 Digits)</small>
+              <div>
+                <input type="text">
+                <img src="./img/right_arrow key.png" alt="">
+              </div>
+            </div>
+            <div class="contant_body__footer">
+              <span>Didn't get a code?</span>
+              <small>we can resend the code in 11:00 seconds</small>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end varifycation code popup -->
+  <br>
+  <!-- signIn phone popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signin_pop">signin
+    popup</button>
+  <div class="modal fade" id="signin_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth rightTickMinW" role="document">
+      <div class="modal-content bg">
+        <div class="containerBody" id="containerBody">
+          <section class="contant_body_signin" id="signIn">
+            <div class="contant_body__logo">
+              <img src="./img/Grameenphone_Logo_GP_Logo.svg.png" alt="">
+              <span>Xoos.Games</span>
+            </div>
+            <div class="contant_body__contant" id="wAuto">
+              <span class="signin__title">Sign in with your GP numbers</span>
+            </div>
+            <div class="contant_body__inputs">
+              <div>
+                <label for="number">Number</label>
+                <input type="phone" placeholder="input your gp number">
+                <button>Sign In</button>
+
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end signin phone  popup -->
+  <br>
+
+  <!-- signIn2 phone popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signin2_pop">signin 2
+    popup</button>
+  <div class="modal fade" id="signin2_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth rightTickMinW" role="document">
+      <div class="modal-content bg">
+        <div class="containerBody" id="containerBody_signIn2">
+          <section class="contant_body_signin_2">
+
+            <div class="contant_body__logo">
+              <span>Xoss.games</span>
+              <img class="login_logo" src="./img/signin.png" alt="">
+            </div>
+            <div class="contant_body__contant" id="wAuto">
+              <span class="signin__title">Sign in with your GP numbers</span>
+            </div>
+            <div class="contant_body__inputs">
+              <div>
+                <label for="number">Mobile</label>
+                <input type="phone" placeholder="input your gp number">
+                <button>Sign In</button>
+                <div>
+                  <span id="differ">Dont have any accounnt?</span>
+                  <button>Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end signin2 phone  popup -->
+
+  <!-- profile phone popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#profile_pop">profile
+    popup</button>
+  <div class="modal fade" id="profile_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth rightTickMinW" role="document">
+      <div class="modal-content bg">
+        <div class="containerBody" id="containerBody_signIn2">
+          <section class="contant_body_profile">
+            <div class="contant_body__logo">
+              <span>Profile</span>
+              <img class="login_logo" src="./img/profile_logo.png" alt="">
+              <p>User Name</p>
+              <small>Gaming Account</small>
+              <button>Edit Profile</button>
+            </div>
+            <div class="contant_body__inputs">
+              <div class="input-icons">
+                <div>
+                  <i class="icon"><img src="./img/user_icon.png" alt=""></i>
+                  <span>|</span>
+                  <input class="input-field" type="text" placeholder="User Name">
+                </div>
+
+                <div>
+                  <i class="icon"><img src="./img/phn_icon.png" alt=""></i>
+                  <span>|</span>
+                  <input class="input-field" type="text" placeholder="Phone Number">
+                </div>
+                <div>
+                  <i class="icon"><img src="./img/gender_icon.png" alt=""></i>
+                  <span>|</span>
+                  <input class="input-field" type="text" placeholder="Gender">
+
+                </div>
+
+
+              </div>
+              <div>
+                <button>Save Changes</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end profile phone  popup -->
+
+
+  <!-- Js -->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

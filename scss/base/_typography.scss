@@ -1,0 +1,36 @@
+// h1 tag styles
+.heading-primary {
+  font-size: 5.5rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  color: $color-white;
+  margin-bottom: 2rem;
+}
+
+// h2 tag styles
+// .heading-secondary {
+// }
+
+// h3 tag styles
+.heading-tertiary {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: .8px;
+  color: $color-grey-dark-3;
+}
+
+// h4 tag styles
+.heading-quaternary {
+  font-family: $font-poppins;
+  font-size: 1.9rem;
+  font-weight: 500;
+  letter-spacing: .4px;
+  color: $color-white;
+}
+
+// p tag styles
+.paragraph {
+  font-family: $font-poppins;
+  font-size: 1.6rem;
+  letter-spacing: .4px;
+}

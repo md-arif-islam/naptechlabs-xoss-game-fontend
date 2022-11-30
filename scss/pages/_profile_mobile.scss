@@ -1,0 +1,196 @@
+#signIn {
+  margin-top: 50px;
+}
+#wAuto {
+  width: auto;
+}
+.signin__title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+///////////////////@at-root
+.containerBody {
+  min-height: 770px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  #contant_body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .contant_body_profile {
+    height: 415px;
+    width: 341px;
+    background-color: $color-white;
+    margin: auto;
+    margin-top: 25px;
+    // span{
+    //   text-align: center;
+    //   display: block;
+    //   font-size: 24px;
+    //   margin: 25px auto;
+    //   color: $color-beguni-dark;
+    // }
+    .contant_body__logo {
+      // height: 90px;
+      // width: 133px;
+      margin: auto;
+      img {
+        height: 134px;
+        width: 134px;
+        margin: auto;
+        display: block;
+      }
+      span {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+        color: $color-beguni-dark;
+        display: block;
+        margin: 20px auto;
+      }
+      p {
+        text-align: center;
+        display: block;
+        font-size: 18px;
+        color: $color-beguni-dark;
+        display: block;
+        margin: 15px auto 1px;
+      }
+      small {
+        text-align: center;
+        display: block;
+        font-size: 10px;
+      }
+      button {
+        background: $color-beguni-dark;
+        color: $color-white;
+        text-align: center;
+        height: 40px;
+        border-radius: 3px;
+        display: block;
+        cursor: pointer;
+        margin: 5px auto;
+        padding: 5px 30px;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        width: 153px;
+
+        &:hover{
+          background-color: $color-grey-dark-3;
+        }
+      }
+      #beforeBtn {
+        opacity: 1;
+      }
+    }
+    .contant_body__contant {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .contant_body__inputs {
+      height: 73px;
+      display: block;
+      margin: 30px auto 40px;
+      div {
+        display: grid;
+        position: relative;
+        label {
+          font-size: 16px;
+          color: $color-beguni-dark;
+        }
+        input {
+          height: 42px;
+          margin-bottom: 18px;
+          font-size: 18px;
+          border: 1px solid $color-beguni-dark;
+          border-radius: 3px;
+        }
+
+        button {
+          height: 42px;
+          font-size: 18px;
+          font-family: "Roboto", sans-serif;
+          color: $color-white;
+          background-color: $color-beguni-dark;
+          border-radius: 3px;
+          border: none;
+          outline: none;
+          width: 200px;
+          margin: 15px auto;
+        }
+        button:hover {
+          cursor: pointer;
+        }
+      }
+      .input-icons i {
+        position: absolute;
+        img {
+          height: 25px;
+        }
+      }
+
+      .input-icons {
+        width: 100%;
+        margin-bottom: 10px;
+        input::placeholder {
+          color: $color-beguni-dark;
+          position: absolute;
+          font-family: "Roboto", sans-serif;
+        }
+        input:focus-visible {
+          outline: none;
+          border-color: $color-beguni-dark;
+          border-width: 2px;
+          transition: 0.5s;
+          color: $color-beguni-dark;
+        }
+        span {
+          position: absolute;
+          right: 0;
+        }
+        p {
+          width: 100%;
+          padding: 6px;
+          text-indent: 25px;
+          line-height: 25px;
+          color: $color-beguni-dark;
+          font-size: 18px;
+          font-family: "Roboto", sans-serif;
+          font-weight: 500;
+        }
+        #signOut_btn {
+          margin-top: 20px;
+        }
+      }
+
+      .icon {
+        margin: 5px auto;
+        color: green;
+        text-align: center;
+      }
+
+      .input-field {
+        width: 100%;
+        padding: 10px;
+        text-indent: 25px;
+        border: none;
+        border-bottom: 1px solid $color-black;
+        font-size: 16px;
+      }
+
+      h2 {
+        color: green;
+      }
+    }
+  }
+}
+#containerBody_signIn2 {
+  min-height: 630px;
+}

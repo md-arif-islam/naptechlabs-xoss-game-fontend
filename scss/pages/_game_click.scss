@@ -1,0 +1,56 @@
+.iframe__body {
+  box-shadow: 0px 8px 8px rgba(60, 30, 110, 0.12);
+  border-radius: 16px;
+  overflow: hidden;
+  &__iframe {
+    height: calc(640px - 160px);
+  }
+  &__t {
+    margin: 3% 5%;
+    overflow: hidden;
+    &__title {
+      color: $color-beguni-dark;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    &__description {
+      p {
+        float: left;
+        width: 50%;
+        img {
+          width: 14px;
+          margin-bottom: 1%;
+        }
+        a {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 21px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: $color-dark_80;
+
+          &:hover {
+            text-decoration: none;
+            color: $color-dark_80;
+          }
+        }
+      }
+      span {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        float: right;
+        color: $color-dark_80;
+        cursor: pointer;
+      }
+    }
+  }
+}

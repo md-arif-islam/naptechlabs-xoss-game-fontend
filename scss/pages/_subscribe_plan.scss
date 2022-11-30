@@ -1,0 +1,101 @@
+#subscriptionMobile {
+  min-width: 320px;
+  max-width: 420px;
+  margin: auto;
+  .header_title {
+    text-align: center;
+    margin: 30px auto 40px;
+    width: 180px;
+    div {
+      font-size: 28px;
+      color: $primary-color;
+    }
+    span {
+      font-size: 16px;
+      border: 1px solid $primary-color;
+      display: block;
+      font-family: "Roboto", sans-serif;
+      font-weight: 600;
+      padding: 3px;
+      border-radius: 3px;
+      margin-top: 10px;
+    }
+  }
+  div.choose_plan {
+    margin: 10px 10px 30px;
+    .plan_cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .plan_card {
+      width: 164px;
+      height: 221px;
+      margin: 10px;
+      border: 1px solid;
+      border-color: transparent;
+      background: #00000007;justify-content: center !important;
+      box-shadow: 0.2px 8px 6px -6px #00000050;
+      .package {
+        margin-top: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        div label {
+          height: 10px;
+          width: 10px;
+          background: #3c1e6e;
+          border-radius: 50%;
+          position: relative;
+          top: 4px;
+        }
+      }
+      section {
+        h5 {
+          margin-bottom: -2px;
+          color: $primary-color;
+          font-size: 18px;
+        }
+
+        small {
+          font-size: 12px;
+        }
+
+        .package {
+          span {
+            font-size: 14px;
+            padding-left: 5px;
+          }
+        }
+
+        button {
+          width: 100%;
+          font-size: 12px;
+          border-width: 1px;
+          color: white;
+          background: $primary-color;
+          cursor: pointer;
+          padding: 5px;
+          font-weight: 600;
+          font-family: "Roboto", sans-serif;
+          border-radius: 3px;
+        }
+      }
+    }
+    #lastCard {
+      margin-top: 20px;
+    }
+    .plan_card:hover {
+      box-shadow: none;
+      border-color: $primary-color;
+      transition: 0.6s;
+      button {
+        color: black;
+        background: transparent;
+        border-color: $primary-color;
+      }
+    }
+  }
+}
+.modal_width {
+  min-width: 460px;
+}

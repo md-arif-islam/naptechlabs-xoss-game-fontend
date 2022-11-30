@@ -1,0 +1,84 @@
+
+#mainBody {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background: $color-gray-dark_90;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.contant_body_manually_verify {
+  height: auto;
+  width: 341px;
+  margin: auto;
+  margin-top: 50px;
+  .contant_body__logo {
+    height: 90px;
+    width: 133px;
+    margin: auto;
+    img {
+      height: 53px;
+      width: 56px;
+      margin: auto;
+      display: block;
+    }
+    span {
+      font-family: "Roboto", sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: $color-bg-beguni;
+      display: block;
+      margin-top: 8px;
+    }
+  }
+}
+#verifyModal {
+  width: 334px;
+  height: 328px;
+  margin: auto;
+  border-radius: 3px;
+  border: 1px solid $color-white;
+  background: $white-color;
+  margin-top: 35px;
+  box-shadow: 0.2px 8px 6px -6px #00000050;
+  div {
+    margin-top: 35px;
+    span {
+      width: 235px;
+      color: $color-beguni-dark;
+      text-align: center;
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      margin-top: 20px;
+      display: block;
+      margin: auto;
+    }
+    img {
+      width: 52px;
+      height: 54px;
+      margin: auto;
+      display: block;
+      margin-top: 35px;
+    }
+    button {
+      background-color: $color-beguni-dark;
+      color: $color-white;
+      width: 283px;
+      height: 46px;
+      border-radius: 3px;
+      font-size: 18px;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      margin: auto;
+      margin-top: 45px;
+      display: block;
+    }
+  }
+}

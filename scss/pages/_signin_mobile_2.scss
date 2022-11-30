@@ -1,0 +1,128 @@
+#signIn {
+  margin-top: 50px;
+}
+#wAuto {
+  width: auto;
+}
+.signin__title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.contant_body__inputs {
+  height: 73px;
+  display: block;
+  margin: 30px auto 40px;
+  div {
+    display: grid;
+    label {
+      font-size: 16px;
+      color: $color-beguni-dark;
+    }
+    input {
+      height: 42px;
+      margin-bottom: 18px;
+      font-size: 18px;
+      padding: 10px 15px;
+      border: 1px solid $color-beguni-dark;
+      border-radius: 3px;
+      color: $color-beguni-dark;
+
+      &::placeholder {
+        color: $color-beguni-dark;
+      }
+    }
+
+    button {
+      height: 42px;
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      color: $color-white;
+      background-color: $color-beguni-dark;
+      border-radius: 3px;
+      border: none;
+      outline: none;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+    div span {
+      font-size: 16px;
+      margin: 12px auto;
+    }
+    div span#differ {
+      font-size: 12px;
+      margin-bottom: -1px;
+    }
+    div button {
+      height: 42px;
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      color: $color-black;
+      background-color: $color-white;
+      border-radius: 3px;
+      border: 1px solid $color-beguni-dark;
+      outline: none;
+    }
+    div button:hover {
+      color: $white-color;
+      background: $color-beguni-dark;
+      border: transparent;
+    }
+  }
+}
+
+///////////////////@at-root
+.containerBody {
+  min-height: 770px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  #contant_body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .contant_body_signin_2 {
+    height: 415px;
+    width: 341px;
+    background-color: $color-white;
+    margin: auto;
+    margin-top: 25px;
+    // span{
+    //   text-align: center;
+    //   display: block;
+    //   font-size: 24px;
+    //   margin: 25px auto;
+    //   color: $color-beguni-dark;
+    // }
+    .contant_body__logo {
+      // height: 90px;
+      width: 133px;
+      margin: auto;
+      img {
+        height: 178px;
+        width: 136px;
+        margin: auto;
+        display: block;
+      }
+      span {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+        color: $color-beguni-dark;
+        display: block;
+        margin: 30px auto;
+      }
+    }
+    .contant_body__contant {
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}
+#containerBody_signIn2 {
+  min-height: 630px;
+}
